@@ -12,6 +12,7 @@
   "author": "Brenda Tamayo Oca",
   "license": "ISC",
   "dependencies": {
+    "cors": "^2.8.5",
     "dotenv": "^16.0.3",
     "express": "^4.18.2",
     "mysql2": "^2.3.3"
