@@ -1,7 +1,7 @@
 import express from 'express'
 import { pool } from './db.js'
 import clientRoute from './routes/clientes.routes.js'
-import { PORT } from'./config.js'
+import { PORT } from './config.js'
 
 const app = express()
 
