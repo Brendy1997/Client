@@ -6,7 +6,7 @@ const router = Router()
 
 router.post('/clientes', createCliente);
 
-router.get('/clientes', getCliente);
+router.get('/clientes/:name/:phone/:age/:zipcode/:married/:income', getCliente);
 
 
 
