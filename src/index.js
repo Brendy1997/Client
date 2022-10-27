@@ -5,7 +5,7 @@ import { PORT } from './config.js'
 
 const app = express()
 
-app.get('/ping', async (req, res) => {
+app.post('/ping', async (req, res) => {
     const [result] = await pool.query('SELECT 1 + 1 AS result')
     res.json(result)
 });
